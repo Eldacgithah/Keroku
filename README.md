@@ -27,7 +27,6 @@
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/1312-micro-sd-card-flat.webp" height="54" align="middle"> Требования</h2>
 <ul>
  <li>Python 3.9-3.13</li>
- <li>API_ID и HASH с <a href="https://my.telegram.org/apps" color="#2594cb">Telegram</a></li>
 </ul>
 
 <hr>
