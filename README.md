@@ -19,7 +19,7 @@
 <img src="https://github.com/hikariatama/assets/raw/master/install_qr.gif" height="256">
 
 <b>Ручная установка (без скриптов):</b><br>
-<code>apt update && apt install git python3 -y && git clone https://github.com/Eldacgithah/Keroku && cd Keroku && pip install -r requirements.txt && python3 -m Ketoku</code>
+<code>apt update && apt install git python3 -y && git clone https://github.com/Eldacgithah/Keroku && cd Keroku && pip install -r requirements.txt && python3 -m heroku/code>
 <i>Если используете VPS/VDS, добавьте <code>--proxy-pass</code> в конец команды для открытия SSH-туннеля к веб-интерфейсу Keroku, либо используйте <code>--no-web</code> для настройки в консоли.</i><br>
 
 
