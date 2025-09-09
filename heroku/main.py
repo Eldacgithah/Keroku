@@ -116,33 +116,10 @@ with contextlib.suppress(Exception):
 
 # fmt: off
 LATIN_MOCK = [
-    "Amor", "Arbor", "Astra", "Aurum", "Bellum", "Caelum",
+    "Amor", "dghh", "qwerty", "Aurum", "Bellum", "Caelum",
     "Calor", "Candor", "Carpe", "Celer", "Certo", "Cibus",
-    "Civis", "Clemens", "Coetus", "Cogito", "Conexus",
-    "Consilium", "Cresco", "Cura", "Cursus", "Decus",
-    "Deus", "Dies", "Digitus", "Discipulus", "Dominus",
-    "Donum", "Dulcis", "Durus", "Elementum", "Emendo",
-    "Ensis", "Equus", "Espero", "Fidelis", "Fides",
-    "Finis", "Flamma", "Flos", "Fortis", "Frater", "Fuga",
-    "Fulgeo", "Genius", "Gloria", "Gratia", "Gravis",
-    "Habitus", "Honor", "Hora", "Ignis", "Imago",
-    "Imperium", "Inceptum", "Infinitus", "Ingenium",
-    "Initium", "Intra", "Iunctus", "Iustitia", "Labor",
-    "Laurus", "Lectus", "Legio", "Liberi", "Libertas",
-    "Lumen", "Lux", "Magister", "Magnus", "Manus",
-    "Memoria", "Mens", "Mors", "Mundo", "Natura",
-    "Nexus", "Nobilis", "Nomen", "Novus", "Nox",
-    "Oculus", "Omnis", "Opus", "Orbis", "Ordo", "Os",
-    "Pax", "Perpetuus", "Persona", "Petra", "Pietas",
-    "Pons", "Populus", "Potentia", "Primus", "Proelium",
-    "Pulcher", "Purus", "Quaero", "Quies", "Ratio",
-    "Regnum", "Sanguis", "Sapientia", "Sensus", "Serenus",
-    "Sermo", "Signum", "Sol", "Solus", "Sors", "Spes",
-    "Spiritus", "Stella", "Summus", "Teneo", "Terra",
-    "Tigris", "Trans", "Tribuo", "Tristis", "Ultimus",
-    "Unitas", "Universus", "Uterque", "Valde", "Vates",
-    "Veritas", "Verus", "Vester", "Via", "Victoria",
-    "Vita", "Vox", "Vultus", "Zephyrus"
+    "Civis", "Clemens", "Coetus", "Cogito", "zdorovika",
+    "cof", "afterrrr", "Curaqa", "Cursus", "loster"
 ]
 # fmt: on
 
