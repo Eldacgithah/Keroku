@@ -569,7 +569,7 @@ class Heroku:
 
     async def _phone_login(self, client: CustomTelegramClient) -> bool:
         phone = input(
-            "\033[0;96mEnter phone: \033[0m"
+            "\033[0;96mPhone number (+XX...): \033[0m"
             if self.arguments.tty
             else "Enter phone: "
         )
