@@ -227,15 +227,9 @@ class UpdaterMod(loader.Module):
             self._db.set(loader.__name__, "secure_boot", True)
 
         msg_obj = await utils.answer(
-            msg_obj,
-            self.strings("restarting_caption").format(
-                utils.get_platform_emoji()
-                if self._client.keroku_me.premium
-                and CUSTOM_EMOJIS
-                and isinstance(msg_obj, Message)
-                else "Keroku"
-            ),
-        )
+    msg_obj,
+    "🌌 Keroku is restarting..."
+)
 
         await self.process_restart_message(msg_obj)
 
