@@ -22,18 +22,6 @@
 <code>apt update && apt install git python3 -y && git clone https://github.com/Eldacgithah/Keroku && cd Keroku && pip install -r requirements.txt && python3 -m Ketoku</code>
 <i>Если используете VPS/VDS, добавьте <code>--proxy-pass</code> в конец команды для открытия SSH-туннеля к веб-интерфейсу Keroku, либо используйте <code>--no-web</code> для настройки в консоли.</i><br>
 
-<br>
-<b>Дополнительно:</b>
-
-<details>
- <summary>Встроенный бэкап базы данных</summary>
- <img src="https://user-images.githubusercontent.com/36935426/202905566-964d2904-f3ce-4a14-8f05-0e7840e1b306.png" width="300">
-</details>
-<details>
- <summary>Информация при установке</summary>
- <img src="https://user-images.githubusercontent.com/36935426/202905720-6319993b-697c-4b09-a194-209c110c79fd.png" width="300">
- <img src="https://user-images.githubusercontent.com/36935426/202905746-2a511129-0208-4581-bb27-7539bd7b53c9.png" width="300">
-</details>
 
 <hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/1312-micro-sd-card-flat.webp" height="54" align="middle"> Требования</h2>
