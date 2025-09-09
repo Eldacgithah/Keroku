@@ -36,35 +36,14 @@
 </details>
 
 <hr>
-<h2><img src="https://github.com/hikariatama/assets/raw/master/35-edit-flat.webp" height="54" align="middle"> Изменения</h2>
-
-<ul>
- <li>🆕 Актуальный Telegram Layer (реакции, видео-стикеры и др.)</li>
- <li>🔓 Улучшена безопасность: кэширование сущностей, новые правила</li>
- <li>🎨 Улучшения UI/UX</li>
- <li>📼 Новые и доработанные модули ядра</li>
- <li>⏱ Более быстрые фиксы багов (по сравнению с FTG и GeekTG)</li>
- <li>▶️ Inline формы, галереи и списки</li>
- <li>🔁 Полная совместимость с FTG, GeekTG и Hikka</li>
-</ul>
-<hr>
 <h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/1312-micro-sd-card-flat.webp" height="54" align="middle"> Требования</h2>
 <ul>
  <li>Python 3.9-3.13</li>
  <li>API_ID и HASH с <a href="https://my.telegram.org/apps" color="#2594cb">Telegram</a></li>
 </ul>
-<hr>
-<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/680-it-developer-flat.webp" height="54" align="middle"> Документация</h2>
-
-Пользовательская документация: <a href="https://heroku-ub.xyz/">heroku-ub.xyz</a><br>
-Документация для разработчиков: <a href="https://dev.heroku-ub.xyz/">dev.heroku-ub.xyz</a>
 
 <hr>
-<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/heroku_talks">Поддержка</a></h2>
-<hr>
-<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/541-hand-washing-step-12-flat.webp" height="54" align="middle"> Возможности</h2>
-
-(Остальные описания возможностей остаются аналогичными оригиналу)
+<h2 border="none"><img src="https://github.com/hikariatama/assets/raw/master/981-consultation-flat.webp" height="54" align="middle"> <a href="https://t.me/Kerokuhelp">Поддержка</a></h2>
 
 <hr>
 <i>⚠️ Данный форк Keroku распространяется "как есть". Автор не несет ответственности за возможные блокировки аккаунта, удаленные сообщения, установку scam-модулей или утечки. Настоятельно рекомендуется включать защиту от API Flood (.api_fw_protection) и не устанавливать сразу много модулей. Используя Keroku, вы принимаете на себя все риски. Подробнее: https://core.telegram.org/api/terms</i>
