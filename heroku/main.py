@@ -817,10 +817,10 @@ class Heroku:
                 print(logo)
                 if self.web and hasattr(self.web, "url"):
                     web_url = (
-                        f"🔗 Web url: {self.web.url}"
+                        f"🌐 Web Panel: {self.web.url}"
                     )
                     logging.debug(
-                        "\n🪐 Heroku %s #%s (%s) started\n%s",
+                        "\n🚀 Keroku Userbot v%s\n🧩 Rev: %s\n📦 Status: %s\n%s",
                         ".".join(list(map(str, list(__version__)))),
                         build[:7],
                         upd,
