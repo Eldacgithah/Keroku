@@ -832,8 +832,8 @@ class Heroku:
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
                 "https://raw.githubusercontent.com/coddrago/assets/refs/heads/main/heroku/heroku_started.png",
                 caption=(
-                    "🪐 <b>Heroku {} started!</b>\n\n⚙ <b>GitHub commit SHA: <a"
-                    ' href="https://github.com/coddrago/Heroku/commit/{}">{}</a></b>\n🔎'
+                    "👻 <b>Ketoku {} started!</b>\n\n⚙ <b>GitHub commit SHA: <a"
+                    ' href="https://github.com/Eldacgithah/Keroku/commit/{}">{}</a></b>\n🔎'
                     " <b>Update status: {}</b>\n<b>{}</b>".format(
                         ".".join(list(map(str, list(__version__)))),
                         build,
@@ -985,7 +985,7 @@ class Heroku:
         except Exception as e:
             logging.exception("Unexpected exception in main loop: %s", e)
         finally:
-            logging.info("Bye!")
+            logging.info("👋 Keroku shutting down...")
             try:
                 self.loop.run_until_complete(self._shutdown_handler())
             except:
