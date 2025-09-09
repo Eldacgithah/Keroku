@@ -548,7 +548,7 @@ class Heroku:
     async def _web_banner(self):
         """Shows web banner"""
         logging.info("🔎 Web mode ready for configuration")
-        logging.info("🔗 Please visit %s", self.web.url)
+        logging.info("🔗😀 Please visit %s", self.web.url)
 
     async def wait_for_web_auth(self, token: str) -> bool:
         """
@@ -800,15 +800,17 @@ class Heroku:
             diff = repo.git.log([f"HEAD..origin/{version.branch}", "--oneline"])
             upd = "Update required" if diff else "Up-to-date"
 
-            logo = (
-                "                          _           \n"
-               r"  /\  /\ ___  _ __  ___  | | __ _   _ ""\n"
-               r" / /_/ // _ \| '__|/ _ \ | |/ /| | | |""\n"
-                "/ __  /|  __/| |  | (_) ||   < | |_| |\n"
-               r"\/ /_/  \___||_|   \___/ |_|\_\ \__,_|""\n\n"
-                f"• Build: {build[:7]}\n"
-                f"• Version: {'.'.join(list(map(str, list(__version__))))}\n"
-                f"• {upd}\n"
+           logo = (
+    "  _  __           _             _   \n"
+    " | |/ / ___ _ __ | | _____  ___| | _\n"
+    " | ' / / _ \\ '_ \\| |/ / _ \\/ __| |/ /\n"
+    " | . \\|  __/ | | |   <  __/ (__|   < \n"
+    " |_|\\_\\___|_| |_|_|\\_\\___|\\___|_|\\_\\\n"
+    "                                     \n"
+    "           K E R O K U               \n\n"
+    f"🧩 Rev: {build[:7]}\n"
+    f"🚀 Version: Keroku v{'.'.join(map(str, list(__version__)))}\n"
+    f"• {upd}\n"
             )
             web_url = ""
             if not self.omit_log:
