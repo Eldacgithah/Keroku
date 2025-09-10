@@ -800,7 +800,7 @@ class Heroku:
             diff = repo.git.log([f"HEAD..origin/{version.branch}", "--oneline"])
             upd = "Update required" if diff else "Up-to-date"
 
-           logo = (
+            logo = (
     "  _  __           _             _   \n"
     " | |/ / ___ _ __ | | _____  ___| | _\n"
     " | ' / / _ \\ '_ \\| |/ / _ \\/ __| |/ /\n"
